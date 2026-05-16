@@ -1,0 +1,30 @@
+#box{
+    margin-left: 40%;
+    width:400px;
+    height: 500px;
+    padding: 20px 200px;
+    background: url("https://img.redbull.com/images/c_crop,x_628,y_0,h_1080,w_810/c_fill,w_450,h_600/q_auto,f_auto/redbullcom/2020/4/2/yugv2gt20gzrbhdfeklz/games-doom-eternal-capa");
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -5px 5px 10px black
+}
+#box2{
+    margin-left: 40%;
+    width: 500px;
+    height: 500px;
+    padding: 20px 150px;
+    background: linear-gradient(130deg,red,green,blue);
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: -5px 5px 10px black;
+    animation: animacao 2s ease-in;
+}
+@keyframes animacao{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}

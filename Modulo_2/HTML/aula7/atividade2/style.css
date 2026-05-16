@@ -1,0 +1,34 @@
+header{
+    background-color: azure;
+    text-align: center;
+    padding: 15px
+}
+.topNav{
+    overflow: hidden;
+    background-color: blue;
+    padding: 4px;
+}
+.topNav a{
+    margin-left: 200px;
+    color:#F1F1F1;
+    text-decoration: none;
+}
+.topNav a:hover{
+    color:rgb(253, 249, 0);
+    transition: all 1s;
+}
+.column{
+    background-color:darkgray;
+    float:left;
+    width: 33.33%;
+}
+footer{
+    font-family: 'Gill Sans MT';
+    text-align:center;
+    padding: 10px;
+}
+@media screen and (max-width: 600px){
+    .column{
+        width: 100px;
+    }
+}

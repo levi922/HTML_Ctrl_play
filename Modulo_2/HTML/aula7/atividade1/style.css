@@ -1,0 +1,13 @@
+body{
+    font-family: 'Verdana';
+}
+
+h3{
+    font-family: 'comic sans MS';
+}
+a[href *="pagina3/"]{
+    color: blue;
+}
+a[href *="pagina1/"]{
+    color: rgb(51, 255, 0);
+}
