@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function areaRetangulo(base, altura){
+        //     var area = base*altura;
+        //     document.write(area);
+        // }
+        // function areaQuadrado(lado){
+        //     lado = parseInt(lado);
+        //     var area = lado**2;
+        //     return area;
+        // }
+        // areaRetangulo(30, 40);
+        // document.write("Área do quadrado: ", + areaQuadrado(20) + "cm²");
+        // function areaTriangulo(base, altura){
+        //     base = parseInt(base)
+        //     altura = parseInt(altura)
+        //     var area = (base*altura)/2
+        //     return area
+        // }
+        // var base = prompt("Base do triangulo: ")
+        // var altura = prompt("Altura do triangulo:")
+        // document.write("Área do triangulo: "+ areaTriangulo( base, altura) + "cm²" );
+        function mensagem(){
+            alert("Você achou uma area clicável")
+        }
+    </script>
+    <div onclick ="mensagem()" style="background-color: blue; color: white; width: 100px;">
+        teste
+    </div>
+    <h2>Escolha um passe do brawl stars</h2>
+    <img onclick="passeNormal()" src="https://lblog.fp.guinfra.com/file/6936ac35eee870dd5bd4c7cf494ogZPO03">
+    <img onclick="passePlus()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLcxp-S_gHkCRhVd8nM5hyIzJLryxK4g2oNclci7FFgg&s">
+    <p id="historia"></p>
+    <script src="script.js"></script>
+</body>
+</html>
