@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de alunos</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de média do aluno</h1>
+        <label>Nome do aluno</label>
+        <input type="text" id="nome" placeholder="Seu nome">
+
+        <label>Língua portuguesa</label>
+        <input type="number" id="nota1">
+
+        <label>Matemática</label>
+        <input type="number" id="nota2">
+
+        <label>História</label>
+        <input type="number" id="nota3">
+
+        <button onclick="calc()">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
