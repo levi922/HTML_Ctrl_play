@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo a Hamburgueria</h1>
+        <h2>Cardápio</h2>
+        <div class="cardapio">
+            <div class="produto">
+                <strong>X-burguer</strong>
+                <span>R$ 13,00</span>
+            </div>
+            
+            <div class="produto">
+                <strong>X-bacon</strong>
+                <span>R$ 17,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>X-salada</strong>
+                <span>R$ 16,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>X-egg salada</strong>
+                <span>R$ 17,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>X-cheddar</strong>
+                <span>R$ 20,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>X-egg bacon</strong>
+                <span>R$ 18,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>X-catupiry</strong>
+                <span>R$ 19,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>Batata-frita - P</strong>
+                <span>R$ 14,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>Batata-frita - M</strong>
+                <span>R$ 18,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>Batata-frita - G</strong>
+                <span>R$ 24,00</span>
+            </div>
+
+            <div class="produto">
+                <strong>Coca-cola 2L</strong>
+                <span>R$ 10,00</span>
+            </div>
+        
+            <div class="produto">
+                <strong>Suco de laranja 1L</strong>
+                <span>R$ 11,00</span>
+            </div> 
+        </div>
+
+        <div class="pedido">
+            <h2>Fazer pedido</h2>
+
+            <select id="item">
+                <option value="">
+                    Selecione um item
+                </option>
+                <option value="Xburguer">
+                    X-burguer - R$ 13,00
+                </option>
+                <option value="Xeggsalada">
+                    X-egg salada - R$ 17,00
+                </option>
+                <option value="Xcheddar">
+                    X-cheddar - R$ 20,00
+                </option>
+                <option value="Xeggbacon">
+                    X-egg bacon - R$ 18,00
+                </option>
+                <option value="Xcatupiry">
+                    X-catupiry - R$ 19,00
+                </option>
+                <option value="Batatap">
+                    Batata-frita pequena - R$ 14,00
+                </option>
+                <option value="Batatam">
+                    Batata-frita média - R$ 18,00
+                </option>
+                <option value="Batatag">
+                    Batata-frita grande - R$ 24,00
+                </option>
+                <option value="Coca">
+                    Coca-cola 2L - R$ 10,00
+                </option>
+                <option value="Suco">
+                    Suco de laranja 1L - R$ 11,00
+                </option>
+            </select>
+
+            <input type="number" id="quantidade" min="1" value="1">
+
+            <button onclick="adicionarPedido()">
+                Adicionar pedido
+            </button>
+        </div>
+
+        <div class="resumo">
+            <h2>Seu pedido</h2>
+
+            <div id="pedidos"></div>
+
+            <h3>
+                Total: R$
+                <span id="total">0.00</span>
+            </h3>
+
+            <button class="finalizar" onclick="finalizarPedido()">
+                Finalizar compra
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

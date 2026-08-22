@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5eee6;
+    color: #3e2723;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #d7ccc8;
+    padding-bottom: 8px;
+}
+
+.cardapio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.produto {
+    background-color: #f8f1eb;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produto strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.pedido {
+    margin-top: 30px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6d4c41;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e342e;
+}
+
+.resumo {
+    margin-top: 30px;
+}
+
+.item-pedido {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.total {
+    font-size: 22px;
+}
+
+.finalizar {
+    background-color: #388e3c;
+}
+
+.finalizar:hover {
+    background-color: #2e7d32;
+}
